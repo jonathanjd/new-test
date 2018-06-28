@@ -8,7 +8,7 @@
   <title>Mi Sitio Web</title>
   <style>
     body {
-      background-color: #333;
+      background-color: #666;
       color: white;
     }
 
@@ -23,6 +23,19 @@
       right: 0;
       left: 0;
       position: absolute;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      background-color: white;
+      color: #333;
+      width: 300px;
+      height: 300px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
     }
   </style>
 </head>
@@ -40,6 +53,11 @@
     dolorum inventore, sunt possimus dolores iusto saepe ratione praesentium? Beatae, odit enim.</p>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolor ipsum, quam modi natus minima nulla sapiente nobis
     dolorum inventore, sunt possimus dolores iusto saepe ratione praesentium? Beatae, odit enim.</p>
+  <div class="card">
+    <h5>Title Card</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita blanditiis minus, inventore modi molestias ullam porro
+      voluptas exercitationem, neque fuga facere debitis ut deleniti excepturi placeat laborum aliquid commodi optio?</p>
+  </div>
   <footer>
     <h3 class="text-center">2018@ Venezuela</h3>
   </footer>
